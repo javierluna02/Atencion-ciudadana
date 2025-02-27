@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="inicio.css">
+    <style>
+        .responsive{
+            min-width: 20%;
+            max-width: 100%;
+            height: auto;
+        }
+            @media (max-width: 35.99375em) {.mantine-visible-from-xs
+                 {display: none !important;}}@media (min-width: 36em) 
+                 {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em)
+                  {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em)
+                   {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em)
+                    {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em)
+                     {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) 
+                     {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) 
+                     {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) 
+                     {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) 
+                     {.mantine-hidden-from-xl {display: none !important;}}
+        
+    </style>
+</head>
+<body class="responsive">
+    <header>
+        <div class="cabezero">
+            <img src="do.webp" alt="Bandera de República Dominicana">
+            <p>Esta es una página web oficial del Gobierno de la República Dominicana. 
+                <a href="#">Así es como puedes saberlo.</a>
+            </p>
+        </div>
+       
+        <section id="Busqueda">
+            <img src="logo-nuevo.webp" alt="Logo Gobierno">
+            <div class="barrita">
+                <input type="text" placeholder="¿Qué quieres buscar?">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cuadro">
+                <svg id="cuadricula" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="0" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="0" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="0" width="30" height="30" fill="#003366"/>
+                    <rect x="0" y="45" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="45" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="45" width="30" height="30" fill="#003366"/>
+                    <rect x="0" y="90" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="90" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="90" width="30" height="30" fill="#003366"/>
+                </svg>
+            </div>
+        </section>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-nosotros">Sobre nosotros</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#firma-digital">Firma digital</a>
+            <a href="#atencion-ciudadana">Atención ciudadana</a>
+            <a href="#normativas">Normativas</a>
+            <a href="#centro-de-datos">Centro de datos</a>
+            <a href="#transparencia">Transparencia</a>
+            <a href="#sala-de-prensa">Sala de prensa</a>
+            <a href="#buzon-sugerencias">Buzón Sugerencias</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="color"></div>
+
+    <main>
+       <div class="background-container">
+           <div class="overlay"></div>
+       </div>
+        <div class="cuerpo">
+            <h1>
+                <span class="agenda">¡Agenda <br></span>
+                <span class="tu-cita">tu cita!</span>
+            </h1>
+            <div class="cuerpo2">
+            <div class="imagenes">
+                <img src="logo3.png" alt="Logo 3" id=".gob" style="width: 18rem;height:7rem;">
+                <img src="logo1.png" alt="Logo 1" id="procu" style="width: 60rem;">
+                <img src="LOGO-PLACA-PNG-1-250x250.webp" alt="Logo Placa" style="width: 9rem;">
+            </div>
+            <div class="boton">
+                <button onclick="location.href='instituciones.html'">Comenzar</button>
+                <script src="nav.js"></script>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+</html>

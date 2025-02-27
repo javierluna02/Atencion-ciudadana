@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+    <style>
+        .responsive{
+            min-width: 20%;
+            max-width: 100%;
+            height: auto;
+            @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) 
+            {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em)
+             {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media
+             (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+        }
+    </style>
+    <!-- este es el formulario de los puntos .gob -->
+</head>
+<body class="responsive">
+    <header>
+        <div class="cabezero">
+            <img src="do.webp" alt="Bandera de República Dominicana"> 
+            <p>Esta es una página web oficial del Gobierno de la República Dominicana. 
+                <a href="#">Así es como puedes saberlo.</a>
+            </p>
+        </div>
+
+        <section id="Busqueda">
+            <img src="logo-nuevo.webp" alt="Logo Gobierno">
+            <div class="barrita">
+                <input type="text" placeholder="¿Qué quieres buscar?">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="cuadro">
+                <svg id="cuadricula" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="0" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="0" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="0" width="30" height="30" fill="#003366"/>
+                    <rect x="0" y="45" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="45" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="45" width="30" height="30" fill="#003366"/>
+                    <rect x="0" y="90" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="90" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="90" width="30" height="30" fill="#003366"/>
+                </svg>
+            </div>
+        </section>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-nosotros">Sobre nosotros</a>
+            <select name="servicio" id="servicio" onchange="redirigir()">
+                <option value="inicio.html">servicio</option>
+                <option value="formulario.html">agenda</option>
+                <script src="nav.js"></script>
+            </select>
+            <a href="#firma-digital">Firma digital</a>
+            <a href="#atencion-ciudadana">Atención ciudadana</a>
+            <a href="#normativas">Normativas</a>
+            <a href="#centro-de-datos">Centro de datos</a>
+            <a href="#transparencia">Transparencia</a>
+            <a href="#sala-de-prensa">Sala de prensa</a>
+            <a href="#buzon-sugerencias">Buzón Sugerencias</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="color">
+        <h1>formulario</h1>
+    </div>
+    <main>
+        </div>
+        <div class="background-container">
+            <div class="overlay">
+                
+            </div>
+        </div>
+        <!-- Formulario de registro -->
+        <section id="registro" class="form-container">
+            <div class="registro">
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="nombre" required>
+                    <div class="form-group">
+                    <label for="apellido">apellido:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder=" apellido" required>
+                    <div>
+                    <label for="correo" >correo</label>
+                    <input type="gmail" id="correo"  name="correo" placeholder="correo" required>
+                    </div>
+                    </div>
+
+
+                </div>
+                <div class="form-group">
+                    <label for="asunto">asunto:</label>
+                    <select id="asunto" name="asunto" required>
+                       <option value="Emisión y renovación de residencias temporales y permanentes.">Emisión y renovación de residencias temporales y permanentes.</option>
+                       <option value="Visa de salida y retorno para extranjeros con trámites pendientes.">Visa de salida y retorno para extranjeros con trámites pendientes.</option>
+                       <option value="Certificación de movimientos migratorios.
+                       ">Certificación de movimientos migratorios.
+                    </option>
+                    <option value="Permiso de salida para menores de edad">Permiso de salida para menores de edad</option>
+                     <option value="Carta de ruta para ciudadanos haitianos.">Carta de ruta para ciudadanos haitianos.</option> 
+                     <option value="Expulsión y deportación de extranjeros en situación irregular.">Expulsión y deportación de extranjeros en situación irregular.</option> 
+                     <option value="consulta de tramites">consulta de tramites</option> 
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="raza">cedula</label> 
+                    <input type="docu" id="cedula" name="cedula" placeholder="cedula">
+                </div>
+                    
+                   </select>
+                   <div class="form-group">
+                    <label for="dia">dia</label>
+                    <select name="dia" id="dia" required>
+                    <option value="selecciona un dia ">selecciona un dia</option>
+                    <option value="lunes">lunes</option>
+                    <option value="martes">martes</option>
+                    <option value="miercoles">miercoles</option>
+                    <option value="jueves">jueves</option>
+                    <option value="viernes">viernes</option>
+                    <option value="sabado">sabado</option>
+                    <option value="domingo">domingo</option>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <label for="hora">hora</label>
+                    <select name="hora" id="hora" required>
+                        <option value="selaciona la hora">selecciona la hora</option>
+                        <option value="8am">8am</option>
+                        <option value="9am">9am</option>
+                        <option value="10am">10am</option>
+                        <option value="11am">11am</option>
+                        <option value="12am">12am</option>
+                        <option value="1pm">1pm</option>
+                        <option value="2pm">2pm</option>
+                        <option value="3pm">3pm</option>
+                        <option value="4pm">4pm</option>
+                        <option value="5pm">5pm</option>
+                        <option value="6pm">6pm</option>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <label for="lugar">lugar</label>
+                    <select name="lugar" id="lugar">
+                        <option value="Punto GOB Megacentro">Punto GOB Megacentro: </option>
+                        <option value="Punto GOB Sambil:
+                        ">Punto GOB Sambil:
+                    </option>
+                        <option value="Punto GOB Santo Domingo Este:
+                        ">Punto GOB Santo Domingo Este:
+                    </option>
+                        <option value=Punto GOB Santo Domingo Oeste:">Punto GOB Santo Domingo Oeste:</option>
+                        <option value="Punto GOB Santiago:
+                        ">Punto GOB Santiago:
+                    </option>
+                        <option value=Punto GOB Santo Doming Norte:
+">Punto GOB Santo Doming Norte:
+</option>
+                        <option value="Punto GOB San Cristóbal:
+                        ">Punto GOB San Cristóbal:
+                    </option>
+                    </select>
+
+                </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit">registrarse</button>
+                </div>
+            </form>
+            </div>
+        </section>
+    </main>
+    <script src="formulario.js"></script>
+    <script src="datos-servidor.js"></script>
+    <script src="guardar-datos.js"></script>
+    <script src="centrodedatos.js"></script>
+    </body>
+</html>
+
+   

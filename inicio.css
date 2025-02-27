@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    min-width: auto;
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+
+}
+
+.cabezero{
+    display: flex;
+    align-items: center;
+    background-color: #003876;
+    color: white;
+    padding: 10px 55px;
+    font-size: 0.8rem;
+}
+
+.cabezero img{
+    width: 20px;
+    height: 15px;
+    padding: 5px;
+}
+
+.cabezero p{
+    padding-left: 10px;
+}
+
+.cabezero p a{
+    color: #04b0cb;
+    padding-left: 9px;
+    font-size: 0.60rem;
+}
+#mainparte1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#MainParte1 img{
+    width: 100%;
+}
+
+#Busqueda{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #a6a6a6;
+    justify-content: space-between;
+    padding: 10px 55px;
+}
+
+#Busqueda img{
+    width: 180px;
+    margin-top: 1rem;
+    padding-left: 55px;
+}
+
+
+.barrita{
+    border: 1px solid;
+    height: 37px;
+    border-radius: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border-color: #a6a6a6;
+    border-right-color: #F04540;
+    position: relative;
+    margin-left: 47rem;
+}
+
+.barrita  input{
+    border: none;
+    margin-right: 20px;
+    outline: none;
+    color: #a6a6a6;
+}
+.barrita div{
+    height: 37px;
+    width: 37px;
+    background-color: #F04540;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+
+.barrita svg{
+border-radius: 100%;
+color: white;
+}
+
+
+#cuadricula{
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.cuadro{
+    border-left: 1px solid #a6a6a6;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+nav select{
+    border: none;
+    color: #003876;
+    width: 5rem;
+ }
+
+nav a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: #003876;
+}
+#MainParte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#MainParte1 img{
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+
+.detalles{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+.detalles button{
+    border-radius: 20px;
+    width: 220px;
+    height: 45px;
+    border: none;
+    background-color: #ff7600;
+    color: white;
+    font-size: 20px;
+}
+
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 20px;
+}
+
+.servicios h2{
+    font-size: 1.8rem;
+}
+.color{
+    background-color: #003876;
+    width: 100%;
+    height: 5rem;
+}
+
+.background-container{
+    background-image: url(df1da44862bfbe0dd2169e4d14570593_XL.jpg);
+    width: 100%;  
+      background-color: rgba(0, 0, 225, 0.6);
+       height: 500px;
+       position: relative;
+       background-size: cover;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    position: relative;
+    top: -30rem;
+}
+.cuerpo2{
+    width: 20%;
+    position: relative;
+    top: -10rem;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 70, 150, 0.6);
+
+   
+}
+
+
+
+.imagenes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+} 
+.cuerpo img{
+    background-size: cover;
+    width: 50%;
+    height: 10rem;
+  
+}
+#gob{
+    background-size: 3rem;
+}
+.cuerpo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 5rem;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.boton  button {
+   
+    border-radius: 20px;
+    background-color: #F04540;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    padding:1.5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer
+}
+.boton button a{
+    text-decoration: none;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+}
+.boton button a:hover{
+    background-color: #ff7600
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Poppins:ital,wght@1,700&display=swap');
+
+.agenda {
+    font-family: 'Merriweather', serif;
+    font-weight: 700; /* Negrita */
+    font-style: italic;
+    color: white; /* Ajusta según el fondo */
+}
+span{
+    font-size: 150%;
+    position: relative;
+    top: -11rem;
+}
+.tu-cita {
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #ff7600;
+    margin-top: 10rem;
+}
+.cuerpo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.imagenes img{
+    width: 15rem;
+}
+@media (max-width: 768px) {
+    .detalles {
+        position: relative;
+        text-align: center;
+        left: unset;
+        top: unset;
+        transform: none;
+        margin-top: 20px;
+    }
+
+    .detalles button {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .barrita {
+        width: 100%;
+    }
+
+    .imagenes {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .imagenes img {
+        width: 80%;
+    }
+
+    .cuerpo h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cabezero {
+        font-size: 0.7rem;
+    }
+
+    .barrita {
+        width: 90%;
+    }
+
+    .detalles button {
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .cuerpo h1 {
+        font-size: 2.5rem;
+    }
+}

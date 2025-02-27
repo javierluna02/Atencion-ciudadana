@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>principal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+    <header>
+    <div class="cabezero">
+        <img src="do.webp" alt="">
+        <p>Esta es una pagina web oficial del Gobierno de la República Dominicana. <a href="">Así es como puedes saberlo.</a></p>
+    </div>
+        
+
+        <section id="Busqueda">
+            <img src="logo-nuevo.webp" alt="">
+            <div class="barrita">
+                <input type="text" placeholder="Qué quieres buscar?">
+                <div><svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg></div>
+            </div>
+
+            <div class="cuadro">
+                <svg id="cuadricula" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="0" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="0" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="0" width="30" height="30" fill="#003366"/>
+                
+                    <rect x="0" y="45" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="45" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="45" width="30" height="30" fill="#003366"/>
+                
+                    <rect x="0" y="90" width="30" height="30" fill="#003366"/>
+                    <rect x="45" y="90" width="30" height="30" fill="#003366"/>
+                    <rect x="90" y="90" width="30" height="30" fill="#003366"/>
+                </svg>
+            </div>
+        </section>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre nosotros">Sobre nosotros</a>
+            <select name="servicio" id="servicio" onchange="redirigir()">
+                <option value="inicio.html">Servicios</option>
+                <option value="formulario.html">Agenda</option>
+                <script src="nav.js"></script>
+            </select>
+            <a href="#firma digital">Firma digital</a>
+            <a href="#atecion ciudadana">Atención ciudadana</a>
+            <a href="#normativas">Normativas</a>
+            <a href="#centro de datos">Centro de datos</a>
+            <a href="#trasparencia">Transparencia</a>
+            <a href="#sala de prensa">Sala de prensa</a>
+            <a href="#buzon sugerencia">Buzón Sugerencias</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="MainParte1">
+            <img src="Artes-banner-web-nueva_banner-1.webp" alt="">
+        <div class="detalles">
+            <button>MÁS DETALLES AQUÍ</button>
+        </div>
+        </section>
+        </section>
+        <section class="servicios-container">
+            <div class="header">
+                <h2>Servicios</h2>
+                <a href="#">Ver todos los servicios ></a>
+            </div>
+    
+            <div class="servicios">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="tarjeta">
+                    <div class="barra-lateral"></div>
+                    <div class="contenido">
+                        <div class="icono">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>Alojamiento de Portales Gubernamentales</h3>
+                        <p>Consiste en un hospedaje web, que proporciona espacio en un servidor compartido, donde se guardará la información de un sitio...</p>
+                        <a href="#">Ver detalles ></a>
+                    </div>
+                </div>
+    
+                <div class="tarjeta">
+                    <div class="barra-lateral"></div>
+                    <div class="contenido">
+                        <div class="icono">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Nube Computacional Gubernamental (OGTICLOUD)</h3>
+                        <p>Este servicio consiste en ofrecer un espacio virtual para el alojamiento de infraestructuras tecnológicas, almacenamiento de...</p>
+                        <a href="#">Ver detalles ></a>
+                    </div>
+                </div>
+    
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+        <section class="impacto-container">
+            <div class="impacto-left">
+                <h2><span>Impacto de los</span> <strong>PUNTOS GOB</strong> en los ciudadanos</h2>
+                
+                <div class="dato">
+                    <p class="servicios-title">Servicios brindados:</p>
+                    <p class="servicios-number">1,195,215</p>
+                    <p class="personas-number">servicios a <span>882,601</span> personas.</p>
+                </div>
+    
+                <div class="dato ahorro">
+                    <p class="ahorro-title">Ahorro promedio por visita para un ciudadano:</p>
+                    <p class="ahorro-valor">RD$165</p>
+                </div>
+    
+                <div class="dato ahorro-total">
+                    <p class="ahorro-total-title">Ahorro total para los ciudadanos:</p>
+                    <p class="ahorro-total-valor">+RD$140.5 millones</p>
+                </div>
+            </div>
+    
+            <div class="impacto-right">
+                <p class="cita">
+                    “Generando ahorros de más de 356 millones de pesos a los ciudadanos y al Estado dominicano. Entre enero y octubre del 2024, los Puntos GOB de la Oficina Gubernamental de Tecnologías de la Información y la Comunicación (OGTIC) han ofrecido un total de <strong>1,195,215</strong> servicios a <strong>882,601</strong> ciudadanos. 
+                    Disponibles en seis ubicaciones estratégicas, los Puntos GOB han permitido a los ciudadanos realizar múltiples trámites públicos en un solo lugar, logrando un ahorro acumulado de más de <strong>RD$140,502,423.36</strong>, optimizando tanto los recursos como el tiempo de los usuarios.”
+                </p>
+                <p class="negrita">Puntos GOB superan el millón de servicios en lo que va de año.</p>
+            </div>
+           
+
+            </div>
+        </section>
+        <section>
+        <div class="semilleros">
+            <img src="image.png" alt="semilleros">
+
+            <div class="semi">
+            <h1>Semilleros Digitales INTRO</h1>
+                <p>El programa "Semilleros Digitales INTRO"es una iniciativa que impacta a jóvenes, preparándolos
+                    en áreas clave como Inteligencia Artificial, Lenguajes de Programación modernos, Desarrollo Web,
+                     Aplicaciones Móviles y otras tecnologías emergentes. Este proyecto busca no solo facilitar su 
+                     inserción en el mercado laboral, sino también contribuir significativamente a la transformación
+                      digital y al fortalecimiento del ecosistema tecnológico del país. El programa capacita a 100 jóvenes,
+                       durante 6 meses, en Programación e Inteligencia Artificial, contribuyendo a formar el talento humano 
+                    necesario para cubrir la necesidad y demanda de profesionales técnicos en la materia, en el país.</p>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+    <footer class="footer-container">
+        <div class="footer-top">
+                
+            
+            <div class="footer-info">
+                <div>
+                    <h4>¡CONÓCENOS!</h4>
+                    <p>Oficina Gubernamental de Tecnologías de la Información y Comunicaciones (OGTIC) y el Gabinete de Innovación</p>
+                    <h4>BÚSCANOS</h4>
+                    <p>Ave. Rómulo Betancourt #311, Edificio Corporativo Vista 311, Santo Domingo, R.D.</p>
+                </div>
+                <div class="info">
+                    <h4>CONTÁCTANOS</h4>
+                    <p>Tel: (809)-286-1009 <br> Fax: (809)-732-5465 <br> info@ogtic.gob.do</p>
+                
+                <div>
+                    <h4>INFÓRMATE</h4>  
+                    <p><a href="#">Términos de Uso</a></p>
+                    <p><a href="#">Políticas de Privacidad</a></p>
+                    <p><a href="#">Preguntas Frecuentes</a></p>
+                </div>
+                 
+                </div>
+                </div>
+            </div>
+        
+
+        <div class="footer-middle">
+            <h4>Certificaciones obtenidas</h4>
+            <div class="certificaciones">
+               
+                </div>
+               
+        <div class="footer-bottom">
+            <p>© 2025 Todos los Derechos Reservados. Desarrollado por <span class="ogtic">ogtic</span></p>
+            <div class="social-icons">
+                <span>SÍGUENOS</span>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>
